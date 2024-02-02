@@ -1,0 +1,13 @@
+name: anakin-language-server
+description: Yet another Jedi Python language server
+homepage: https://github.com/muffinmad/anakin-language-server
+licenses:
+  - GPL-3.0
+languages:
+  - Python
+categories:
+  - LSP
+source:
+  id: pkg:pypi/anakin-language-server@1.21
+bin:
+  anakin-language-server: pypi:anakin-language-server
